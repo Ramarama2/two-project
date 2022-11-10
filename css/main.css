@@ -1,0 +1,166 @@
+
+body {
+    background-color: #013141;
+}
+
+.sec {
+    position: relative;
+}
+
+.sec .img {
+    margin: 3% 0 0 10%;
+}
+
+.sec .six .one {
+    position: absolute;
+    top: 120% ;
+    right: 10%;
+}
+
+.sec .six .two {
+    position: absolute;
+    top: 1% ;
+    right: 13%;
+}
+
+
+
+.sec .six .four {
+    position: absolute;
+    top: 220%;
+    right: 18%;
+}
+
+.sec .six .five {
+    position: absolute;
+    top: 20% ;
+    right: 30%;
+}
+
+.sec .six .sixs {
+    position: absolute;
+    top: 200% ;
+    right: 45%;
+}
+
+.sec .pp {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+}
+
+.sec .pp h1{
+    color: #30f5c7;
+    font-size: 800%;
+    
+}
+
+.sec .par {
+    position: absolute;
+    top: 220%;
+    left: 10%;
+}
+
+.sec .par p {
+    color: #8aa9bc;
+    font-size: 23px;
+}
+
+.sec .but {
+    position: absolute;
+    top: 280%;
+    left: 10%;
+}
+
+.sec .but button {
+    background-color: #30f5c7;
+    color: #013141;
+    border: 1px solid #30f5c7;
+    padding: 13px 25px;
+    border-radius: 10px;
+}
+
+.sec .fx {
+    display: flex;
+    position: absolute;
+    top: 320%;
+    left: 10%;
+}
+
+.sec .fx p {
+    color: #8aa9bc;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+}
+
+@media(max-width:750px) {
+    .sec .six{
+        position: relative;
+    }
+    .sec .six .one {
+        display: none;
+    }
+    .sec .six .four {
+        display: none;
+    }
+    .sec .six .five {
+        display: none;
+    }
+
+    .sec .six .two {
+        width: 40%;
+    }
+    .sec .six .three {
+        width: 30%;
+       
+    }
+
+    .sec .six .sixs {
+        position: absolute;
+        top: 330% ;
+        right: 0%;
+    }
+    .sec .pp h1{
+        color: #30f5c7;
+        font-size: 300%;
+        
+    }
+
+    .sec .pp {
+        position: absolute;
+        top: 70%;
+        left: 5%;
+    }
+
+    .sec .par {
+        position: absolute;
+        top: 180%;
+        left: 5%;
+    }
+    .sec .par p {
+        color: #8aa9bc;
+        font-size: 21px;
+    }
+    .sec .but {
+        position: absolute;
+        top: 250%;
+        left: 5%;
+    }
+    
+    .sec .but button {
+        padding: 19px 30px;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+    .sec .fx {
+        display: flex;
+        position: absolute;
+        top: 390%;
+        left: 5%;
+    }
+    .sec .fx p {
+        font-size: 25px;
+    }
+}
+
+
